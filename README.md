@@ -1,7 +1,7 @@
 # Amazon Prime Clone Deployment Project
 ## Project Overview
 
-This project focuses on implementing a Continuous Integration (CI) and Continuous Deployment (CD) pipeline using Jenkins. The goal is to deploy a clone of the Amazon Prime Video application to Amazon Elastic Container Registry (ECR) while incorporating security vulnerability scanning using Trivy. The pipeline also integrates SonarQube for static code analysis and quality gate checks.
+This project focuses on implementing a robust Continuous Integration (CI) and Continuous Deployment (CD) pipeline using Jenkins. The objective is to deploy an Amazon Prime Video clone application to Amazon Elastic Kubernetes Service (EKS) while incorporating security vulnerability scanning with Trivy. The pipeline also integrates SonarQube for comprehensive static code analysis and quality gate checks. For continuous deployment, ArgoCD is utilized to ensure automated and consistent deployments.
 
 This project demonstrates deploying an Amazon Prime clone using a set of DevOps tools and practices. The primary tools include:
 
